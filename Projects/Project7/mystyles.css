@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+header   {
+	width: 900px;
+	height: 200px;
+	background-color: #F3E2D4;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+section  {
+	width: 900px;
+	background-image: url('images/colback.jpg');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+nav{
+	float: left;
+	width: 250px;
+}
+nav a{
+	border: 6px inset #CCCCCC;
+	background-color: #351A00;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 25px;
+	color: #FFEEE6;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+}
+nav a:hover {
+	color: #FFD380;
+	border: 2px outset #CCCCCC;
+}
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #F3E2D4;
+	margin: auto;
+}
+.logoleft {
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+h1, h2, h3{
+	color: #f4f4f9;
+	text-align: center;
+	font-size: xx-large;
+}
+.footer_text{
+	color: #000000
+}
+p{
+	color: #f4f4f9;
+}
+a{
+	color:#0277bd;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: underline;
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+#thumbs, #image {
+		width: 300px;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+		flex-wrap: nowrap;
+	}
+
+			
+	#thumbs img {
+		width: 150px;
+		height: auto;
+		border: solid 1px #000;
+		margin: 5px;
+	}
+
+	#image{
+		height:500px;
+	}
+.auto-style1 {
+	float: left;
+	height: 150px;
+	padding: 0px 15px 10px 80px;
+	margin-left: 29px;
+}
+hr {
+	border-style: solid;
+	border-color: #C6CDDC;
+	border-width: 1px;
+}
