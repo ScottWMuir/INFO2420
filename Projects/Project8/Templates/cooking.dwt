@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home - Native Cooking</title>
+<!-- TemplateEndEditable -->
+<link href="../mystyles.css" rel="stylesheet" type="text/css">
+	
+<script type="text/javascript" src="../myscripts.js"> </script>
+	
+<link rel="stylesheet" href="../print.css" type="text/css" media="print">
+
+</head>
+	
+<body onload="preloadImages()">
+	<header>
+		<a href="../index.htm" onMouseOver="document.logo.src=logo2.src;"
+	onMouseOut="document.logo.src=logo1.src;">
+
+	<img src="../Images/logo.jpg" width="133" height="175" 
+	name="logo" alt="logo" style="border:none;" class="logoleft"/>
+
+	</a>
+
+		
+		<img src="../images/banner.png" alt="NC Banner" width="600" height="175">	   						
+	</header>
+	<section>
+		<nav>
+			<a href="../Home.htm">Home Page</a><br>
+			<a href="../aboutus.htm">About Us</a><br>
+			<a href="../tributes.htm">Tributes</a><br>
+			<a href="../favorites.htm">My Favorites</a><br>
+			<a href="../survey.htm">Survey Page</a><br>
+			
+		</nav>
+		<!-- TemplateBeginEditable name="right" -->
+		<article>
+		  <h1>Welcome to Native Cooking of Utah! </h1>
+		  <p>If you love to cook like we do, you should enjoy looking around this site.  
+		    Take a look at our Recipes and take the opportunity to complete our survey.</p>
+		  <div id="thumbs"> <img src="../Images/thumbnails/image1sm.jpg" alt="girl eating salad" onMouseOver="swapImage(0);" /> <img src="../Images/thumbnails/image2sm.jpg" alt="girl eating jello" onMouseOver="swapImage(1);" /> <img src="../Images/thumbnails/image3sm.jpg" alt="hamburger on grill" onMouseOver="swapImage(2);" /> <img src="../Images/thumbnails/image4sm.jpg" alt="wine glass" onMouseOver="swapImage(3);" /> </div>
+		  <div id="image"> <img id="theImage" src="../images/fullsize/image1lg.jpg" alt="girl eating salad" />
+		    <h3 id="bottomText">girl eating salad</h3>
+	      </div>
+		  <h2>Example Recipes for Native Cooking</h2>
+		  <img src="../images/RasberryCakeSm.jpg" alt="Raspberry Cake" class="auto-style1" width = "193">
+		  <p>My favorite past time is cooking.  I especially like cooking for family and friends.  I was glad to find this web site about Native Cooking of Utah. <a href="../Tributes.html">more...</a> </p>
+	    </article>
+		<!-- TemplateEndEditable -->
+	
+	</section>
+	<footer>
+	<p class="footer_text">Contact Us By Email: <a href="mailto:11023830@uvu.edu">Scott Muir</a></p>
+	<p class="footer_text">This web site has been created soley for educational purposes.</p>
+	</footer>
+
+</body>
+</html>
