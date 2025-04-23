@@ -3,10 +3,10 @@
 	logo1 = new Image
 	logo2 = new Image
 if (document.images) {
-	PrintButton1.src = "images/print.jpg"
-	PrintButton2.src = "images/print2.jpg"
-	logo1.src = "images/logo.jpg"
-	logo2.src = "images/logo2.jpg"
+	PrintButton1.src = "Images/print.jpg"
+	PrintButton2.src = "Images/print2.jpg"
+	logo1.src = "Images/logo.jpg"
+	logo2.src = "Images/logo2.jpg"
 }
 
 
